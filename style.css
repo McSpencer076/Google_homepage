@@ -1,0 +1,135 @@
+h1 {
+    font-size: 150px;
+    font-weight: normal;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    font-size: small;
+    font-weight: normal;
+    font-family: Arial, sans-serif;
+}
+
+h3 {
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Arial, sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    position: sticky;
+ }
+
+ li{
+     float:right;
+     color: black;
+     padding: 08px;
+}
+
+a {
+    display: block-inline;
+    color: #1a0dab;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+  }
+
+a:link {
+    color: black;
+  }
+  a:visited {
+    color: black;
+  }
+  a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+  a:active {
+    color:black;
+  } 
+
+a.frysk{
+    color: blue;
+    font-size: small;
+    padding: 0px;
+}
+  a:hover {
+    color: blue;
+    text-decoration: underline;
+  }
+
+.logodiv{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFFF;
+    padding: 20px;
+    
+}
+
+.search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFFF;
+    padding: 0 16px;
+
+    height: 36px;
+
+    min-width: 54px;
+
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.Searchbtn{
+    background-color: #f8f9fa;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+
+.searchtxt{
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    min-width: 54px;
+    font-size: small;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.navbar{
+    height: 48px;
+    font-size:small;
+    font-family: Arial, sans-serif;
+}
+
+
+.body{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: Arial, Sans-serif;
+    Color:#222;
+
+}
+
+
+.footer{
+    background-color: #FFFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+
+
+#logo{
+    width: 272px;
+    height: 92px;
+}
