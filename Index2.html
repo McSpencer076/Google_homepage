@@ -1,0 +1,168 @@
+<html>
+    <head>
+        <style>
+
+    .body{
+                background-color: #FFFFFF;
+                height: 100%;
+                width: 100%;
+                font-family: Arial, Sans-serif;
+                Color:#222;
+            }
+
+    .navbar{
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                align-items: center;
+            }
+            .navbar-linktxt{
+                padding: 9px;
+                font-size: small;
+            }
+            .navbar-gridbtn{
+                padding: 9px;
+            }
+            .navbar-inlogbtn{
+                padding: 7px;
+                margin-right: 5px;
+            }
+
+    .logodiv{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: end;
+                max-height: 290px;
+                min-height: 125px;
+                height: calc(100% - 560px)
+    }
+
+    .searchdiv{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 20px;
+                Height: 160px;
+    }
+    .searchbar{
+                padding: 5px 8px 0 16px;
+                margin-top:20px;
+                
+    }
+    .searchbartxt{
+                border: 1px solid grey;
+                border-radius: 90px;
+                height: 45px;
+                width: 575px;
+                text-align: center;
+            }
+    .searchbartxt:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .searchbtn{
+                background-color: #f8f9fa;
+                border: 1px solid transparent ;
+                border-radius: 4px;
+                color: #3c4043;
+                font-family: arial, sans-serif;
+                font-size: 14px;
+                margin: 11px 4px;
+                padding: 0 16px;
+                height: 36px;
+                line-height: 27px;
+                min-width: 54px;
+                text-align: center;
+                cursor: pointer;
+                transition-duration: 0.4ms;
+    }
+    .searchbtn:hover{
+                border: 1px solid #aeb4b8;
+    }
+
+    a {
+                display: block-inline;
+                color: #1a0dab;
+                text-decoration: none;
+            }
+            a:link {
+                color: black;
+            }
+            a:visited {
+                color: black;
+            }
+            a:hover {
+                color: black;
+                text-decoration: underline;
+            }
+            a:active {
+                color:black;
+            } 
+    
+
+            #loginbtn{
+                background-color: #1a73e8;
+                color:#FFFFFF;
+                border-radius: 4px;
+                border: 1px solid transparent;
+                padding: 9px 23px;
+                font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+                font-weight: 500;
+                font-size: 14px;
+                letter-spacing: .25px;
+            }
+
+            #logo{
+                width: 272px;
+                height: 92px;
+                object-fit: contain;
+                object-position: center bottom;
+            }     
+
+                
+
+        </style>
+    </head>
+
+<div class="body">
+
+    <div class="navbar">
+        <div class="navbar-linktxt">
+            <a href="blank.html">Gmail</a></div>
+        <div class="navbar-linktxt">
+            <a href="blank2.html">Images</a></div>
+        <div class="navbar-gridbtn"><a href="index.html"><img src="outline_apps_black_24dp.png"></a></div>
+        <div class="navbar-inlogbtn">
+        <label for="Login">
+            <input type="submit" Name="Login" Value="Sign in" id="loginbtn">
+        </label>
+        </div>
+    </div> 
+
+    <div class="logodiv">
+        <img src="googlelogo_color_272x92dp.png" alt="googlelogo" id="logo">
+    </div>
+
+    <div class="searchdiv">
+        <div class="searchbar">
+            <form>
+                <label for="searchbar">
+                    <input type="text" name="searchbar" class="searchbartxt" placeholder="put text here">
+                </label>
+            </form>
+        </div>
+
+            <form>
+                <label for="search"></label>
+                <button class="searchbtn">Google Search</button>
+                <label for="lucky"></label>
+                <button class="searchbtn">I'm feeling lucky</button>
+            </form>
+        </div>
+    </div>
+
+
+</div>
+
+</html>
