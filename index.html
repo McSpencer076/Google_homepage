@@ -1,56 +1,67 @@
-<!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" href="style.css">
-</head>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
 <body>
 <div class="body">
     <div class="navbar">
-        <ul>
-        <div class="linkimg">
-            <li>
-            <a href="about.asp">
-            <label for="Login">
-                <input type="submit" id="loginbtn" Name="Login" Value="Inloggen">
-            </label>
-            </a>
-            </li>
-            <li>
-                <div class="gridimg"
-                <a href="contact.asp" >
-                    <img src="Grid.png" id="gridbtn" alt="HTML tutorial">
-                </a><div>
-                </a>
-            </li>
+        <div class="navbar-linktxt">
+            <a href="blank.html">Gmail</a></div>
+        <div class="navbar-linktxt">
+            <a href="blank2.html">Images</a></div>
+        <div class="navbar-gridbtn"><a href="index.html"><img src="images/outline_apps_black_24dp.png"></a></div>
+        <div class="navbar-inlogbtn">
+        <label for="Login">
+            <input type="submit" Name="Login" Value="Sign in" id="loginbtn">
+        </label>
         </div>
-            <li><a href="news.asp">Afbeeldingen</a></li>
-            <li><a href="default.asp">Gmail</a></li>
-        </ul> 
-    </div>
+    </div> 
+
     <div class="logodiv">
-        <img src="googlelogo_color_272x92dp.png" alt="googlelogo" id="logo">
+        <img src="images/googlelogo_color_272x92dp.png" alt="googlelogo" id="logo">
     </div>
-    <div class="search">
-        <form> 
-            <label for="searchbar"></label>
-            <input type="text" name="searchbar">
-        </form>
+
+    <div class="searchdiv">
+        <div class="searchbar">
+            <form>
+                <label for="searchbar">
+                    <input type="text" name="searchbar" class="searchbartxt" placeholder="put text here">
+                </label>
+            </form>
+        </div>
+
+            <form>
+                <label for="search"></label>
+                <button class="searchbtn">Google Search</button>
+                <label for="lucky"></label>
+                <button class="searchbtn">I'm feeling lucky</button>
+            </form>
+        </div>
+
+    <div class="centertxtdiv">
+        <p>Google aangeboden in het <a class="frysk" href="frysk.html">Frysk</a></p>
     </div>
-    <div class="search">
-        <form>
-            <label for="search"></label>
-            <input type="submit" name="search" Value="Search">
-            <label for="lucky"></label>
-            <input type="submit" name="lucky" Value="I'm Feeling Lucky">
-        </form>
+
+    <div class="footerdiv">
+        <div class="footer1">Nederland</div>
+        <div class="footer2">
+            <div class="footer2left">
+            <a href="1.html" class="bottom">Over</a>
+            <a href="2.jtml" class="bottom">Adverteren</a>
+            <a href="3.html" class="bottom">Bedrijf</a>
+            <a href="4.html" class="bottom">Hoe Google Zoeken Werkt</a>
+            </div>
+            <div class="footer2center">
+            <a href="5.html" class="bottomcenter"><img src="images/leaf.png" id="leaf">C02-Neutraal sinds 2007</a>
+            </div>
+            <div class="footer2right">
+            <a href="5.html" class="bottom">Privacy</a>
+            <a href="5.html" class="bottom">Voorwaarden</a>
+            <a href="5.html" class="bottom">Instellingen</a>
+            </div>
     </div>
-    <div class="searchtxt">
-        <h3> Google aangeboden in: <a class="frysk" href="https://www.google.com/setprefs?sig=0_ZWXfFHgL-YwMr81p5cbA1rWxPY0%3D&amp;hl=fy&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwiq17yzw9rwAhUKO-wKHV89A9sQ2ZgBCA0">Frysk</a> </h3>
-    </div>
-    <div class="footer">  
-        <h2>Footer</h2>      
     </div>
 </div>
 
 </body>
-</html> 
+</html>
